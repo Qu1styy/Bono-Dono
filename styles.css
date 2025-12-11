@@ -1,0 +1,161 @@
+* {
+    font-family: "Comfortaa", sans-serif;
+}
+
+.header {
+    width: 90%;
+    height: 62px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border: 1px solid #D9D9D9;
+    border-radius: 15px;
+    margin: 42px auto 50px auto;
+    justify-content: space-between;
+    padding: 0 5px;
+    min-width: 280px;
+    flex-shrink: 0; /* Запрещает блоку сжиматься */
+}
+
+
+.location {
+    width: 105px;
+    height: 52px;
+
+    border-radius: 10px;
+    border: none;
+
+    background-color: #FEBA00;
+    color: white;
+
+    display: flex;
+    padding: 18px 21px;
+    align-items: center;
+
+    font-weight: normal;
+    font-size: 14px;
+
+    transition: 0.3s;
+}
+
+.location:hover {
+    background-color: #FFFFFF;
+    color: #FEBA00;
+    border: 1px solid #D9D9D9;
+    cursor: pointer;
+}
+
+.location svg{
+    width: 10px;
+    height: 15px;
+    padding-left: 6px ;
+}
+
+.logo{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.button{
+    border: 1px solid #D9D9D9;
+    width: 52px;
+    height: 52px;
+    border-radius: 10px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    cursor: pointer;
+    transition: 0.25s;
+    color: #FEBA00;
+}
+
+.buttons button:nth-child(4){
+    display: none;
+}
+
+.button:hover{
+    background-color: #FEBA00;
+    color: white;
+    stroke-color: white;
+}
+
+.buttons{
+    display: flex;
+    gap: 5px;
+}
+
+.button svg{
+    width: 26px;
+    height: 26px;
+    margin: 12px;
+}
+
+.promo{
+    width: 90%;
+    height: 430px;
+
+    border: 1px solid #D9D9D9;
+    border-radius: 15px;
+
+    margin: 0 auto 50px auto;
+    padding: 0 5px;
+    background-image: url("./img/Промо.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    align-content: center;
+}
+
+.button_left{
+    width: 35px;
+    height: 35px;
+    border-radius: 6px;
+    border: 2px solid #FFFFFF;
+    background: none;
+    color: white;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.button_left svg{
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .buttons button:nth-child(1),
+    .buttons button:nth-child(2),
+    .buttons button:nth-child(3){
+        display: none;
+    }
+    .buttons button:nth-child(4){
+        display: flex;
+
+    }
+
+    .location {
+        display: none;
+    }
+
+    .header{
+        justify-content: right;
+    }
+
+    .promo{
+        background-image: none;
+        background-color: #FEBA00;
+    }
+
+}
