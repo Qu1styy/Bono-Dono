@@ -1,5 +1,7 @@
 * {
     font-family: "Comfortaa", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .header {
@@ -15,6 +17,7 @@
     padding: 0 5px;
     min-width: 280px;
     flex-shrink: 0; /* Запрещает блоку сжиматься */
+    position: relative;
 }
 
 
@@ -105,34 +108,80 @@
     background-image: url("./img/Промо.svg");
     background-size: cover;
     background-repeat: no-repeat;
-
-    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.button_left{
+.button_section{
+    position: absolute;
+
+}
+
+.prev{
     width: 35px;
     height: 35px;
-    border-radius: 6px;
     border: 2px solid #FFFFFF;
-    background: none;
-    color: white;
-    margin: 15px;
+    background:transparent;
+    border-radius: 6px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    cursor: pointer;
+    align-items: center;
+    color: #FFFFFF;
+}
+.promo_content{
+    width: 90%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.promo_text{
+    width: 460px;
+    height: 100%;
+    border: 1px solid black;
+    margin-right: 64px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.promo_text_p{
+    font-size: 38px;
+    margin-top: 38px;
+}
+
+.promo_text_p2{
+    font-size: 108px;
+    margin-top: 20px;
+}
+
+.promo_text_p3{
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.next{
+    width: 35px;
+    height: 35px;
+    border: 2px solid #FFFFFF;
+    background:transparent;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
 }
 
 .button_left svg{
 
 }
 
-
-
-
-
-
-
+.promo_content button{
+    width: 176px;
+    height: 44px;
+}
 
 @media (max-width: 768px) {
     .buttons button:nth-child(1),
@@ -156,6 +205,40 @@
     .promo{
         background-image: none;
         background-color: #FEBA00;
+        height: 350px;
     }
 
+    .promo_content{
+        width: 80%;
+    }
+    .promo_text{
+        align-content: center;
+        gap: 20px;
+    }
+
+    .promo_text_p{
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .promo_text_p2{
+        font-size: 62px;
+        margin-bottom: 10px;
+
+    }
+
+    .promo_text_p3{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .promo_text{
+        margin: 0;
+        width: 100%;
+
+    }
+
+    .promo_text button{
+
+    }
 }
