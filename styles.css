@@ -136,7 +136,14 @@ body{
     align-items: center;
     color: #FFFFFF;
     cursor: pointer;
+    transition: 0.3s;
 }
+
+.prev:hover{
+    background-color: #FFFFFF;
+    color: #FEBA00;
+}
+
 .promo_content{
     width: 90%;
     height: 100%;
@@ -181,6 +188,12 @@ body{
     align-items: center;
     color: #FFFFFF;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.next:hover{
+    background-color: #FFFFFF;
+    color: #FEBA00;
 }
 
 .button_left svg{
@@ -190,14 +203,29 @@ body{
 .promo_content button{
     width: 176px;
     height: 44px;
+    border-color: #FFFFFF;
 }
 
+
+@media (max-width: 1292px) {
+    .promo{
+        background-image: url("./img/Промо_блюр.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+}
+
+
 @media (max-width: 768px) {
+
+
     .buttons button:nth-child(1),
     .buttons button:nth-child(2),
     .buttons button:nth-child(3){
         display: none;
     }
+
     .buttons button:nth-child(4){
         display: flex;
 
@@ -212,14 +240,14 @@ body{
     }
 
     .promo{
-        background-image: none;
-        background-color: #FEBA00;
         height: 350px;
+        background-image: url("./img/Промо_блюр.png");
     }
 
     .promo_content{
         width: 80%;
     }
+
     .promo_text{
         align-content: center;
         gap: 20px;
@@ -250,5 +278,4 @@ body{
     .promo_text button{
 
     }
-
 }
