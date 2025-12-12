@@ -4,8 +4,10 @@
     padding: 0;
 
 }
-body{
+
+body {
     display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -16,11 +18,10 @@ body{
     align-items: center;
     border: 1px solid #D9D9D9;
     border-radius: 15px;
-    margin: 42px auto 50px auto;
+    margin: 24px auto 50px auto;
     justify-content: space-between;
-    padding: 0 5px;
     min-width: 280px;
-    flex-shrink: 0; /* Запрещает блоку сжиматься */
+    flex-shrink: 0;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
@@ -41,6 +42,7 @@ body{
     display: flex;
     padding: 18px 21px;
     align-items: center;
+    margin-left: 5px;
 
     font-weight: normal;
     font-size: 14px;
@@ -55,20 +57,19 @@ body{
     cursor: pointer;
 }
 
-.location svg{
+.location svg {
     width: 10px;
     height: 15px;
-    padding-left: 6px ;
+    padding-left: 6px;
 }
 
-.logo{
+.logo {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-
 }
 
-.button{
+.button {
     border: 1px solid #D9D9D9;
     width: 52px;
     height: 52px;
@@ -82,36 +83,36 @@ body{
     color: #FEBA00;
 }
 
-.buttons button:nth-child(4){
+.buttons button:nth-child(4) {
     display: none;
 }
 
-.button:hover{
+.button:hover {
     background-color: #FEBA00;
     color: white;
     stroke-color: white;
 }
 
-.buttons{
+.buttons {
     display: flex;
     gap: 5px;
+    margin-right: 5px;
 }
 
-.button svg{
+.button svg {
     width: 26px;
     height: 26px;
     margin: 12px;
 }
 
-.promo{
+.promo {
     width: 90%;
     height: 430px;
 
     border: 1px solid #D9D9D9;
     border-radius: 15px;
 
-    margin: 130px auto 50px auto;
-    padding: 0 5px;
+    margin: 138px auto 50px auto;
     background-image: url("./img/Промо.svg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -120,16 +121,15 @@ body{
     align-items: center;
 }
 
-.button_section{
+.button_section {
     position: absolute;
-
 }
 
-.prev{
+.prev {
     width: 35px;
     height: 35px;
     border: 2px solid #FFFFFF;
-    background:transparent;
+    background: transparent;
     border-radius: 6px;
     display: flex;
     justify-content: center;
@@ -139,12 +139,12 @@ body{
     transition: 0.3s;
 }
 
-.prev:hover{
+.prev:hover {
     background-color: #FFFFFF;
     color: #FEBA00;
 }
 
-.promo_content{
+.promo_content {
     width: 90%;
     height: 100%;
     /*border: 1px solid black;*/
@@ -152,7 +152,7 @@ body{
     justify-content: flex-end;
 }
 
-.promo_text{
+.promo_text {
     width: 460px;
     height: 100%;
     /*border: 1px solid black;*/
@@ -162,26 +162,26 @@ body{
     font-weight: bold;
 }
 
-.promo_text_p{
+.promo_text_p {
     font-size: 38px;
     margin-top: 38px;
 }
 
-.promo_text_p2{
+.promo_text_p2 {
     font-size: 108px;
     margin-top: 20px;
 }
 
-.promo_text_p3{
+.promo_text_p3 {
     font-size: 28px;
     margin: 10px 0 14px 0;
 }
 
-.next{
+.next {
     width: 35px;
     height: 35px;
     border: 2px solid #FFFFFF;
-    background:transparent;
+    background: transparent;
     border-radius: 6px;
     display: flex;
     justify-content: center;
@@ -191,24 +191,48 @@ body{
     transition: 0.3s;
 }
 
-.next:hover{
+.next:hover {
     background-color: #FFFFFF;
     color: #FEBA00;
 }
 
-.button_left svg{
+.button_left svg {
 
 }
 
-.promo_content button{
+.promo_content button {
     width: 176px;
     height: 44px;
     border-color: #FFFFFF;
 }
 
+.quality {
+    width: 90%;
+    height: 62px;
+    border: 1px solid #D9D9D9;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.quality_1 {
+    width: 217px;
+    height: 100%;
+    border: 1px solid #D9D9D9;
+    border-radius: 15px;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    padding-left: 6px;
+    font-size: 14px;
+    gap: 13px;
+
+}
+
+
 
 @media (max-width: 1292px) {
-    .promo{
+    .promo {
         background-image: url("./img/Промо_блюр.png");
         background-size: cover;
         background-repeat: no-repeat;
@@ -222,11 +246,11 @@ body{
 
     .buttons button:nth-child(1),
     .buttons button:nth-child(2),
-    .buttons button:nth-child(3){
+    .buttons button:nth-child(3) {
         display: none;
     }
 
-    .buttons button:nth-child(4){
+    .buttons button:nth-child(4) {
         display: flex;
 
     }
@@ -235,47 +259,67 @@ body{
         display: none;
     }
 
-    .header{
+    .header {
         justify-content: right;
     }
 
-    .promo{
+    .promo {
         height: 350px;
         background-image: url("./img/Промо_блюр.png");
     }
 
-    .promo_content{
+    .promo_content {
         width: 80%;
     }
 
-    .promo_text{
+    .promo_text {
         align-content: center;
         gap: 20px;
     }
 
-    .promo_text_p{
+    .promo_text_p {
         font-size: 22px;
         margin-bottom: 10px;
     }
 
-    .promo_text_p2{
+    .promo_text_p2 {
         font-size: 62px;
         margin-bottom: 10px;
 
     }
 
-    .promo_text_p3{
+    .promo_text_p3 {
         font-size: 18px;
         margin-bottom: 10px;
     }
 
-    .promo_text{
+    .promo_text {
         margin: 0;
         width: 100%;
 
     }
 
-    .promo_text button{
+    .promo_text button {
 
     }
+
+/*    .quality {*/
+/*        display: flex;                 !* вместо грида *!*/
+/*        overflow-x: auto;              !* скролл по горизонтали *!*/
+/*        gap: 12px;*/
+/*        scroll-snap-type: x mandatory; !* плавный фиксированный скролл *!*/
+/*        padding-bottom: 10px;          !* чтобы было место под скроллбар *!*/
+/*    }*/
+
+/*    .quality_1 {*/
+/*        min-width: 200px;              !* ширина карточки *!*/
+/*        flex-shrink: 0;                !* не сжимается *!*/
+/*        scroll-snap-align: start;      !* фиксация карточек *!*/
+/*    }*/
+
+/*    !* Убираем полосу прокрутки (опционально) *!*/
+/*    .quality::-webkit-scrollbar {*/
+/*        display: none;*/
+/*    }*/
+/*}*/
 }
