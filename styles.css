@@ -252,6 +252,8 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .button_search{
