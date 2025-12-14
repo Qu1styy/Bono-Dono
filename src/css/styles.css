@@ -109,7 +109,7 @@ a{
     border-radius: 15px;
 
     margin: 50px auto 50px auto;
-    background-image: url("./img/Промо.svg");
+    background-image: url("../img/Промо.svg");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -280,7 +280,7 @@ a{
 
 @media (max-width: 1292px) {
     .promo {
-        background-image: url("./img/Промо_блюр.png");
+        background-image: url("../img/Промо_блюр.png");
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -314,7 +314,7 @@ a{
 
     .promo {
         height: 350px;
-        background-image: url("./img/Промо_блюр.png");
+        background-image: url("../img/Промо_блюр.png");
     }
 
     .promo_content {
