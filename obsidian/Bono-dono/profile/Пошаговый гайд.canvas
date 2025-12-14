@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"49b838ca555e57d7","x":-290,"y":-640,"width":400,"height":400,"color":"1","type":"file","file":"Bono-dono/profile/1. Проверить дизайн.md"},
+		{"id":"991a96e8294aeca8","x":-290,"y":-80,"width":400,"height":400,"color":"1","type":"file","file":"Bono-dono/profile/2. Работа с текстом.md"},
+		{"id":"ba3df608ee772f93","x":-290,"y":480,"width":400,"height":400,"color":"1","type":"file","file":"Bono-dono/profile/3. Добавить анимации.md"}
+	],
+	"edges":[
+		{"id":"482a58e76ec57486","fromNode":"49b838ca555e57d7","fromSide":"bottom","toNode":"991a96e8294aeca8","toSide":"top"},
+		{"id":"b51ee7e937dc0bd3","fromNode":"991a96e8294aeca8","fromSide":"bottom","toNode":"ba3df608ee772f93","toSide":"top"}
+	]
+}
