@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"caa109319a952417","x":-41,"y":-202,"width":400,"height":400,"type":"file","file":"Гайд.md"},
+		{"id":"fd21198ed76228b4","x":-41,"y":424,"width":400,"height":400,"type":"file","file":"Тема видит данный блок.md"},
+		{"id":"95ca189ab3fcf65a","x":-41,"y":1120,"width":400,"height":400,"type":"file","file":"Тема делает первые шаги.md"}
+	],
+	"edges":[
+		{"id":"9dc8b9756bb75701","fromNode":"caa109319a952417","fromSide":"bottom","toNode":"fd21198ed76228b4","toSide":"top"},
+		{"id":"0dce23bf2d2cf70c","fromNode":"fd21198ed76228b4","fromSide":"bottom","toNode":"95ca189ab3fcf65a","toSide":"top"}
+	]
+}
