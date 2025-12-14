@@ -4,12 +4,6 @@
     padding: 0;
 
 }
-
-body {
-    display: flex;
-    flex-direction: column;
-}
-
 .header {
     width: 90%;
     height: 62px;
@@ -22,10 +16,8 @@ body {
     justify-content: space-between;
     min-width: 280px;
     flex-shrink: 0;
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-
+    position: sticky;
+    /*left: 50%;*/
 }
 
 
@@ -112,7 +104,7 @@ body {
     border: 1px solid #D9D9D9;
     border-radius: 15px;
 
-    margin: 138px auto 50px auto;
+    margin: 50px auto 50px auto;
     background-image: url("./img/Промо.svg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -121,11 +113,7 @@ body {
     align-items: center;
 }
 
-.button_section {
-    position: absolute;
-}
-
-.prev {
+.navigation_buttons {
     width: 35px;
     height: 35px;
     border: 2px solid #FFFFFF;
@@ -139,7 +127,7 @@ body {
     transition: 0.3s;
 }
 
-.prev:hover {
+.navigation_buttons:hover {
     background-color: #FFFFFF;
     color: #FEBA00;
 }
@@ -177,24 +165,6 @@ body {
     margin: 10px 0 14px 0;
 }
 
-.next {
-    width: 35px;
-    height: 35px;
-    border: 2px solid #FFFFFF;
-    background: transparent;
-    border-radius: 6px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FFFFFF;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.next:hover {
-    background-color: #FFFFFF;
-    color: #FEBA00;
-}
 
 .button_left svg {
 
@@ -208,25 +178,34 @@ body {
 
 .quality {
     width: 90%;
-    height: 62px;
+    min-height: 62px;
     border: 1px solid #D9D9D9;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
     margin: 0 auto;
-    justify-content: space-between;
 }
 
 .quality_1 {
-    width: 217px;
+    width: 100%;
     height: 100%;
     border: 1px solid #D9D9D9;
     border-radius: 15px;
     display: flex;
     /*justify-content: center;*/
     align-items: center;
-    padding-left: 6px;
+    /*padding-left: 6px;*/
     font-size: 14px;
-    gap: 13px;
+}
+.quality_1 img{
+    margin: 6px;
+}
 
+
+
+.quality_1 p{
+    width: 100%;
+    text-align: center;
 }
 
 
@@ -303,23 +282,10 @@ body {
 
     }
 
-/*    .quality {*/
-/*        display: flex;                 !* вместо грида *!*/
-/*        overflow-x: auto;              !* скролл по горизонтали *!*/
-/*        gap: 12px;*/
-/*        scroll-snap-type: x mandatory; !* плавный фиксированный скролл *!*/
-/*        padding-bottom: 10px;          !* чтобы было место под скроллбар *!*/
-/*    }*/
 
-/*    .quality_1 {*/
-/*        min-width: 200px;              !* ширина карточки *!*/
-/*        flex-shrink: 0;                !* не сжимается *!*/
-/*        scroll-snap-align: start;      !* фиксация карточек *!*/
-/*    }*/
+    .quality{
 
-/*    !* Убираем полосу прокрутки (опционально) *!*/
-/*    .quality::-webkit-scrollbar {*/
-/*        display: none;*/
-/*    }*/
-/*}*/
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 }
