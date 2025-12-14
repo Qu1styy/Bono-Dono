@@ -2,8 +2,8 @@
     font-family: "Comfortaa", sans-serif;
     margin: 0;
     padding: 0;
-
 }
+
 .header {
     width: 90%;
     height: 62px;
@@ -12,14 +12,18 @@
     align-items: center;
     border: 1px solid #D9D9D9;
     border-radius: 15px;
-    margin: 24px auto 50px auto;
+    margin: 0 auto 50px auto;
     justify-content: space-between;
     min-width: 280px;
     flex-shrink: 0;
     position: sticky;
-    /*left: 50%;*/
+    top: 25px;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
 
 .location {
     width: 105px;
@@ -179,7 +183,6 @@
 .quality {
     width: 90%;
     min-height: 62px;
-    border: 1px solid #D9D9D9;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
@@ -192,22 +195,85 @@
     border: 1px solid #D9D9D9;
     border-radius: 15px;
     display: flex;
-    /*justify-content: center;*/
     align-items: center;
-    /*padding-left: 6px;*/
     font-size: 14px;
 }
 .quality_1 img{
     margin: 6px;
 }
 
-
-
 .quality_1 p{
     width: 100%;
     text-align: center;
 }
 
+.search{
+    width: 90%;
+    min-height: 62px;
+    border: 1px solid #D9D9D9;
+    border-radius: 15px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.button_catalog{
+    width: 120px;
+    height: 52px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FEBA00;
+    color: white;
+
+    display: flex;
+    padding: 18px 17px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5px;
+
+    font-weight: normal;
+    font-size: 14px;
+
+    transition: 0.3s;
+
+}
+
+.button_catalog:hover{
+    background-color: #FFFFFF;
+    color: #FEBA00;
+    border: 1px solid #D9D9D9;
+}
+
+.nav_center{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button_search{
+    margin-right: 5px;
+    border: 1px solid #D9D9D9;
+    width: 52px;
+    height: 52px;
+    border-radius: 10px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    cursor: pointer;
+    transition: 0.25s;
+    color: #FEBA00;
+}
+
+.button_search:hover {
+    background-color: #FEBA00;
+    color: white;
+    stroke-color: white;
+}
 
 
 @media (max-width: 1292px) {
@@ -286,8 +352,13 @@
 
 
     .quality{
-
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .quality > :last-child {
+        grid-column: 1 / -1;
+        max-width: 50%;
+        justify-self: center;
     }
 
 }
