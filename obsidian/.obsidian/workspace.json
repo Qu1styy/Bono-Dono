@@ -8,31 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2df801de2347de59",
+            "id": "0453dc9911d4070c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bono-dono/Изменение структуры файла index.html.md",
+                "file": "Bono-dono/profile/4. Блок с бонусами.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Изменение структуры файла index.html"
-            }
-          },
-          {
-            "id": "0453dc9911d4070c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "title": "4. Блок с бонусами"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,23 +183,39 @@
   },
   "active": "0453dc9911d4070c",
   "lastOpenFiles": [
+    "Bono-dono/profile/3. Добавить анимации.md",
+    "Bono-dono/profile/2. Работа с текстом.md",
+    "Bono-dono/profile/1. Проверить дизайн.md",
+    "Bono-dono/profile/profile гайд.md",
+    "Bono-dono/index/index гайд.md",
+    "Bono-dono/Бэм в index.html.md",
+    "Bono-dono/profile/Пошаговый гайд.canvas",
+    "Bono-dono/profile/4. Блок с бонусами.md",
     "Гайд.md",
-    "Bono-dono/bono-dono гайд.md",
+    "тест.canvas",
+    "Тема делает первые шаги.md",
+    "Тема видит данный блок.md",
+    "Pasted image 20251215011714.png",
+    "Pasted image 20251215011712.png",
+    "Bono-dono/index/Чистка кода.md",
+    "Bono-dono/index/Сделать footer.md",
+    "Bono-dono/index/Переделать подключение шрифтов.md",
+    "Bono-dono/index/Изменение структуры файла index.html.md",
+    "Bono-dono/index/Добавить максимальный размер.md",
+    "Bono-dono/index/Бэм в index.html.md",
+    "Bono-dono/index/bono-dono.canvas",
     "Bono-dono/Сделать footer.md",
-    "Bono-dono/bono-dono.canvas",
     "Bono-dono/Переделать подключение шрифтов.md",
     "Bono-dono/Изменение структуры файла index.html.md",
     "Bono-dono/Добавить максимальный размер.md",
-    "Bono-dono/Бэм в index.html.md",
-    "Pasted image 20251215011714.png",
-    "Pasted image 20251215011712.png",
+    "Bono-dono/profile",
+    "Bono-dono/index",
+    "Bono-dono/bono-dono.canvas",
+    "Bono-dono/bono-dono гайд.md",
+    "Bono-dono",
     "Без названия.md",
     "Comfortaa,Playfair_Display.zip",
-    "Bono-dono",
-    "Тема делает первые шаги.md",
     "Без названия 1.canvas",
-    "Тема видит данный блок.md",
-    "Без названия.canvas",
-    "тест.canvas"
+    "Без названия.canvas"
   ]
 }
