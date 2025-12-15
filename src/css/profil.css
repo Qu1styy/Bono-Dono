@@ -81,7 +81,8 @@
     width: 100%;
     padding-left: 0;
 }
-.desktop { display: none; }
+.desktop { display: block; }
+.mobile { display: none; }
 @media (max-width: 768px) {
     .profile-details-block {
         display: flex;
@@ -92,4 +93,5 @@
         flex-direction: column;
     }
     .mobile { display: block; }
+    .desktop { display: none; }
 }
