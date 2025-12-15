@@ -2,10 +2,10 @@
 	"nodes":[
 		{"id":"c9cac9d54e5b7ae9","type":"file","file":"Bono-dono/index/Изменение структуры файла index.html.md","x":-320,"y":-1600,"width":400,"height":400,"color":"1"},
 		{"id":"bafb0058ae1769c2","type":"file","file":"Bono-dono/index/Бэм в index.html.md","x":-320,"y":-1080,"width":400,"height":400,"color":"1"},
-		{"id":"5e815bc45d19eef9","type":"file","file":"Bono-dono/index/Добавить максимальный размер.md","x":-320,"y":-560,"width":400,"height":400,"color":"1"},
-		{"id":"157e09c0480d2ce3","type":"file","file":"Bono-dono/index/Переделать подключение шрифтов.md","x":-320,"y":-40,"width":400,"height":400,"color":"1"},
+		{"id":"5e815bc45d19eef9","type":"file","file":"Bono-dono/index/Добавить максимальный размер.md","x":-320,"y":-560,"width":400,"height":400,"color":"3"},
+		{"id":"157e09c0480d2ce3","type":"file","file":"Bono-dono/index/Переделать подключение шрифтов.md","x":-320,"y":-40,"width":400,"height":400,"color":"4"},
 		{"id":"7ea94ba7622d2520","type":"file","file":"Bono-dono/index/Сделать footer.md","x":-320,"y":480,"width":400,"height":400,"color":"1"},
-		{"id":"983f1fe08c0c9e90","x":-320,"y":1000,"width":400,"height":400,"color":"1","type":"file","file":"Bono-dono/index/Чистка кода.md"}
+		{"id":"983f1fe08c0c9e90","type":"file","file":"Bono-dono/index/Чистка кода.md","x":-320,"y":1000,"width":400,"height":400,"color":"1"}
 	],
 	"edges":[
 		{"id":"082c146389d68f01","fromNode":"c9cac9d54e5b7ae9","fromSide":"bottom","toNode":"bafb0058ae1769c2","toSide":"top"},

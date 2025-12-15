@@ -11,10 +11,17 @@
             "id": "0453dc9911d4070c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "type": "canvas",
+              "state": {
+                "file": "Bono-dono/index/bono-dono.canvas",
+                "viewState": {
+                  "x": -205.63304772416103,
+                  "y": 210.95480720874346,
+                  "zoom": -1.7377678652022555
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "bono-dono"
             }
           }
         ]
@@ -179,23 +186,30 @@
   },
   "active": "0453dc9911d4070c",
   "lastOpenFiles": [
-    "Bono-dono/index/Чистка кода.md",
-    "Bono-dono/index/Сделать footer.md",
+    "Bono-dono/index/index гайд.md",
     "Bono-dono/index/Переделать подключение шрифтов.md",
+    "Comfortaa,Playfair_Display/Comfortaa/static/Comfortaa-SemiBold.ttf",
+    "Comfortaa,Playfair_Display/Comfortaa/static/Comfortaa-Regular.ttf",
+    "Comfortaa,Playfair_Display/Comfortaa/static/Comfortaa-Light.ttf",
+    "Comfortaa,Playfair_Display/Comfortaa/static/Comfortaa-Medium.ttf",
+    "Comfortaa,Playfair_Display/Comfortaa/static/Comfortaa-Bold.ttf",
+    "Comfortaa,Playfair_Display/Comfortaa/static",
+    "Comfortaa,Playfair_Display/Comfortaa/Comfortaa-VariableFont_wght.ttf",
+    "Comfortaa,Playfair_Display/Comfortaa/README.txt",
+    "Comfortaa,Playfair_Display/Comfortaa/OFL.txt",
+    "Comfortaa,Playfair_Display/Comfortaa",
+    "Bono-dono/index/bono-dono.canvas",
+    "Bono-dono/index/Чистка кода.md",
     "Bono-dono/index/Изменение структуры файла index.html.md",
     "Bono-dono/index/Добавить максимальный размер.md",
     "Bono-dono/index/Бэм в index.html.md",
-    "Bono-dono/index/index гайд.md",
-    "Bono-dono/index/bono-dono.canvas",
+    "Bono-dono/index/Сделать footer.md",
     "Bono-dono/profile/Пошаговый гайд.canvas",
     "Bono-dono/profile/profile гайд.md",
     "Bono-dono/profile/4. Блок с бонусами.md",
     "Bono-dono/profile/3. Добавить анимации.md",
     "Bono-dono/profile/2. Работа с текстом.md",
     "Bono-dono/profile/1. Проверить дизайн.md",
-    "Bono-dono/profile",
-    "Bono-dono/index",
-    "Bono-dono",
     "Bono-dono/Бэм в index.html.md",
     "Гайд.md",
     "тест.canvas",
@@ -210,7 +224,6 @@
     "Bono-dono/bono-dono.canvas",
     "Bono-dono/bono-dono гайд.md",
     "Без названия.md",
-    "Comfortaa,Playfair_Display.zip",
     "Без названия 1.canvas",
     "Без названия.canvas"
   ]
