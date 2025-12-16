@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 @font-face {
     font-family: 'Comfortaa';
     src: url('../../fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf') format('truetype');
@@ -26,11 +31,6 @@
     position: sticky;
     top: 25px;
     max-width: 1440px;
-}
-
-a{
-    text-decoration: none;
-    color: black;
 }
 
 .header_button_location {
@@ -69,7 +69,6 @@ a{
 }
 
 .button {
-    border: 1px solid #D9D9D9;
     width: 52px;
     height: 52px;
     border-radius: 10px;
@@ -80,6 +79,7 @@ a{
     cursor: pointer;
     transition: 0.25s;
     color: #FEBA00;
+    border: 1px solid #D9D9D9;
 }
 
 .header_buttons_menu button:nth-child(4) {
@@ -141,7 +141,6 @@ a{
 .promo_content {
     width: 90%;
     height: 100%;
-    /*border: 1px solid black;*/
     display: flex;
     justify-content: flex-end;
 }
@@ -149,7 +148,6 @@ a{
 .promo_text {
     width: 460px;
     height: 100%;
-    /*border: 1px solid black;*/
     margin-right: 64px;
     color: white;
     text-align: center;
@@ -169,11 +167,6 @@ a{
 .promo_text_var-3 {
     font-size: 28px;
     margin: 10px 0 14px 0;
-}
-
-
-.button_left svg {
-
 }
 
 .promo_content button {
@@ -229,16 +222,13 @@ a{
     border: none;
     background-color: #FEBA00;
     color: white;
-
     display: flex;
     padding: 18px 17px;
     align-items: center;
     justify-content: space-between;
     margin-left: 5px;
-
     font-weight: normal;
     font-size: 14px;
-
     transition: 0.3s;
 }
 
@@ -260,17 +250,6 @@ a{
 
 .button_search{
     margin-right: 5px;
-    border: 1px solid #D9D9D9;
-    width: 52px;
-    height: 52px;
-    border-radius: 10px;
-    background-color: white;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    cursor: pointer;
-    transition: 0.25s;
-    color: #FEBA00;
 }
 
 .button_search:hover {
