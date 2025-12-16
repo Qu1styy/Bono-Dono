@@ -133,7 +133,7 @@ a{
     transition: 0.3s;
 }
 
-.navigation_buttons:hover {
+.promo_navigation_arrow:hover {
     background-color: #FFFFFF;
     color: #FEBA00;
 }
@@ -205,7 +205,7 @@ a{
 
 .search{
     width: 90%;
-    min-height: 62px;
+    height: 62px;
     border: 1px solid #D9D9D9;
     border-radius: 15px;
     margin: 50px auto;
@@ -215,7 +215,7 @@ a{
     max-width: 1440px;
 }
 
-.button_catalog{
+.search_button_catalog{
     width: 120px;
     height: 52px;
     border-radius: 10px;
@@ -232,14 +232,14 @@ a{
     transition: 0.3s;
 }
 
-.button_catalog:hover{
+.search_button_catalog:hover{
     background-color: #FFFFFF;
     color: #FEBA00;
     border: 1px solid #D9D9D9;
     cursor: pointer;
 }
 
-.nav_center{
+.search_nav_center{
     width: 80%;
     display: flex;
     align-items: center;
@@ -248,14 +248,57 @@ a{
     overflow: hidden;
 }
 
-.button_search{
+.search_button_search{
     margin-right: 5px;
 }
 
-.button_search:hover {
+.search_button_search:hover {
     background-color: #FEBA00;
     color: white;
     stroke-color: white;
+}
+
+.product-list{
+    width: 90%;
+    min-height: 500px;
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /*border: 1px solid #D9D9D9;*/
+    border-radius: 15px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.product-list_card{
+    width: 100%;
+    min-height: 500px;
+    border: 1px solid #D9D9D9;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.product-list_card_horse{
+    background-image: url("../../src/img/Лошадь.png");
+}
+
+.product-list_card_butterfly{
+    background-image: url("../../src/img/Сказка.png");
+}
+
+.product-list_card_wish{
+    background-image: url("../../src/img/Желание.png");
+}
+
+.product-list_card button{
+    width: 95%;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: black;
 }
 
 
@@ -268,10 +311,16 @@ a{
 
     .quality {
         grid-template-columns: repeat(3, 1fr);
+        margin: 50px auto;
     }
 
     .search{
         display: none;
+    }
+
+
+    .product-list{
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -340,5 +389,15 @@ a{
 
     .search{
         display: none;
+    }
+
+    .quality > :last-child {
+        grid-column: 1 / -1;
+        max-width: 50%;
+        justify-self: center;
+    }
+
+    .product-list{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
