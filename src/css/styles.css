@@ -407,6 +407,7 @@ a{
     .promo {
         background-image: url("../img/Промо_блюр.png");
         background-size: cover;
+
         background-repeat: no-repeat;
     }
 
