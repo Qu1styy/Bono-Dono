@@ -344,7 +344,6 @@ a{
     color: #8B8B8B;
     font-size: 14px;
     margin-top: 10px;
-
 }
 
 .news_content_card_button{
@@ -374,11 +373,13 @@ a{
     .product-list{
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .news_content{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 768px) {
-
-
     .header_buttons_menu button:nth-child(1),
     .header_buttons_menu button:nth-child(2),
     .header_buttons_menu button:nth-child(3) {
@@ -443,6 +444,10 @@ a{
     }
 
     .product-list{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .news_content{
         grid-template-columns: repeat(1, 1fr);
     }
 }
