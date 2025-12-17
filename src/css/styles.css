@@ -2,6 +2,7 @@
     font-family: "Comfortaa", sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 a{
@@ -268,6 +269,7 @@ a{
     border-radius: 15px;
     margin: 0 auto;
     gap: 20px;
+    justify-items: center;
 }
 
 .product-list_card{
@@ -280,7 +282,9 @@ a{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    max-width: 420px;
 }
+
 
 .product-list_card_horse{
     background-image: url("../../src/img/Лошадь.png");
@@ -301,6 +305,54 @@ a{
     color: black;
 }
 
+.news_name{
+    border: 1px solid #D9D9D9;
+    border-radius: 15px;
+    width: 90%;
+    height: 80px;
+    margin: 50px auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news_content{
+    width: 90%;
+    height: 220px;
+    margin: 0 auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.news_content_card{
+    border: 1px solid #D9D9D9;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    max-height: 220px;
+    padding: 20px;
+    text-align: center;
+}
+
+.news_content_card_name{
+    display: block;
+    font-size: 24px;
+}
+
+.news_content_card_info{
+    color: #8B8B8B;
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+
+.news_content_card_button{
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 18px;
+    margin-top: 35px;
+}
 
 @media (max-width: 1292px) {
     .promo {
@@ -382,19 +434,12 @@ a{
     }
 
     .quality > :last-child {
-        grid-column: 1 / -1;
-        max-width: 50%;
         justify-self: center;
+        grid-column: span 2;
     }
 
     .search{
         display: none;
-    }
-
-    .quality > :last-child {
-        grid-column: 1 / -1;
-        max-width: 50%;
-        justify-self: center;
     }
 
     .product-list{
