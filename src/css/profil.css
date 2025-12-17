@@ -1,0 +1,97 @@
+.profile {
+    width: 90%;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+    gap: 50px;
+}
+.title-block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: var(--content-border);
+    border-radius: var(--content-border-radius);
+    padding: 15px 0;
+}
+.title-block__title { text-align: center; }
+.profile-details-block {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 50px;
+}
+.profile-details-block__item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: var(--content-border);
+    border-radius: var(--content-border-radius);
+    padding: 20px;
+    justify-content: space-between;
+    gap: 25px;
+    box-sizing: border-box;
+}
+.profile-details-block__info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.form-label__input {
+    width: calc(100% - 20px);
+    padding-left: 20px;
+    border: var(--content-border);
+    border-radius: var(--content-border-radius);
+    height: 45px;
+}
+.form-label__input::placeholder { color: var(--conrast-color); }
+.profile-details-block__info-title {
+    color: var(--conrast-color);
+    font-size: 2.5em;
+    width: 100%;
+}
+.password-change-block__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: var(--content-border);
+    border-radius: var(--content-border-radius);
+    padding: 15px 20px;
+    width: 100%;
+    grid-column: span 2;
+    box-sizing: border-box;
+}
+.title-block--sub { border: none;}
+.password-change-block__form-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 25px;
+    row-gap: 10px;
+    width: 100%;
+}
+.form-label__input--button {
+    background-color: var(--conrast-color);
+    color: #d9d9d9;
+    width: 100%;
+    padding-left: 0;
+}
+.desktop { display: block; }
+.mobile { display: none; }
+@media (max-width: 768px) {
+    .profile-details-block {
+        display: flex;
+        flex-direction: column;
+    }
+    .password-change-block__form-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .mobile { display: block; }
+    .desktop { display: none; }
+}

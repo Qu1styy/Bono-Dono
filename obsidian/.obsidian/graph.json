@@ -8,7 +8,14 @@
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "path:Bono-dono  ",
+      "query": "path:Bono-dono/profile  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:Bono-dono/index  ",
       "color": {
         "a": 1,
         "rgb": 14725458
@@ -20,11 +27,11 @@
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "collapse-forces": false,
+  "centerStrength": 0.380208333333333,
+  "repelStrength": 11.5625,
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 0.7132754626224418,
-  "close": false
+  "close": true
 }
