@@ -2,13 +2,11 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bono Dono</title>
+    <title>Войти</title>
     <link rel="stylesheet" href="src/css/main.css">
-    <link rel="stylesheet" href="src/css/index.css">
+    <link rel="stylesheet" href="src/css/login.css">
 </head>
 <body>
-
 <header class="header">
     <button class="header_button_location">
         Томск
@@ -80,139 +78,20 @@
     </nav>
 </header>
 
-<section class="promo">
-
-    <button class="promo_navigation_arrow">
-        <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M8.75 1.25L1.25 8.75L8.75 16.25" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
+<section class="login">
+    <p class="login_name">Войти на сайт</p>
+    <p class="login_text">Войдите в Bono dono для доступа к своему профилю</p>
+    <label for="login"></label>
+    <input class="login_form_input" placeholder="Логин" id="login" type="text">
+    <label for="password"></label>
+    <input class="login_form_input" placeholder="Пароль" id="password" type="text">
+    <div class="login_reset_password">
+        <a href="">Забыли пароль?</a>
+    </div>
+    <button class="login_button">
+        Войти
     </button>
-
-    <div class="promo_content">
-        <div class="promo_text">
-            <p class="promo_text_var-1">Акция “НЕобычный подарок”</p>
-            <p class="promo_text_var-2">-15%</p>
-            <p class="promo_text_var-3">Скидка на готовые наборы c 8 по 21 сентября</p>
-            <button class="button">
-                Выбрать набор
-            </button>
-        </div>
-    </div>
-
-    <button class="promo_navigation_arrow">
-        <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M1.25 1.25L8.75 8.75L1.25 16.25" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-    </button>
-</section>
-
-<section class="quality">
-
-    <div class="quality_block"><img src="src/img/хлопушка.svg" alt="">
-        <p>Дарите праздник</p></div>
-
-    <div class="quality_block"><img src="src/img/Алмаз.svg" alt="">
-        <p>Копи бонусы</p></div>
-
-    <div class="quality_block"><img src="src/img/Скидка.svg" alt="">
-        <p>Лучшие цены</p></div>
-
-    <div class="quality_block"><img src="src/img/Грузовик.svg" alt="">
-        <p>Доставка</p></div>
-
-    <div class="quality_block"><img src="src/img/Смска.svg" alt="">
-        <p>7496 отзывов</p></div>
-
-</section>
-
-<section class="search">
-    <button class="search_button_catalog"> Каталог
-        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_1_2527)">
-                <path d="M3.25 6C4.76878 6 6 4.76878 6 3.25C6 1.73122 4.76878 0.5 3.25 0.5C1.73122 0.5 0.5 1.73122 0.5 3.25C0.5 4.76878 1.73122 6 3.25 6Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M10.75 6C12.2688 6 13.5 4.76878 13.5 3.25C13.5 1.73122 12.2688 0.5 10.75 0.5C9.23122 0.5 8 1.73122 8 3.25C8 4.76878 9.23122 6 10.75 6Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M3.25 13.5C4.76878 13.5 6 12.2688 6 10.75C6 9.23122 4.76878 8 3.25 8C1.73122 8 0.5 9.23122 0.5 10.75C0.5 12.2688 1.73122 13.5 3.25 13.5Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M10.75 13.5C12.2688 13.5 13.5 12.2688 13.5 10.75C13.5 9.23122 12.2688 8 10.75 8C9.23122 8 8 9.23122 8 10.75C8 12.2688 9.23122 13.5 10.75 13.5Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-            </g>
-            <defs>
-                <clipPath id="clip0_1_2527">
-                    <rect width="14" height="14" fill="white"/>
-                </clipPath>
-            </defs>
-        </svg>
-    </button>
-
-    <nav class="search_nav_center">
-        <a href="#">Девушке</a>
-        <a href="#">Мужчине</a>
-        <a href="#">Для двоих</a>
-        <a href="#">Семье</a>
-        <a href="#">Ребёнку</a>
-        <a href="#">Наборы</a>
-        <a href="#">Новинки</a>
-        <a href="#">Акции</a>
-    </nav>
-
-    <button class="search_button_search button">
-        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_1_2519)">
-                <path d="M10.5716 20.25C15.917 20.25 20.2502 15.9167 20.2502 10.5714C20.2502 5.22607 15.917 0.892822 10.5716 0.892822C5.22631 0.892822 0.893066 5.22607 0.893066 10.5714C0.893066 15.9167 5.22631 20.25 10.5716 20.25Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M24.1076 24.1071L17.4111 17.4106" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </g>
-            <defs>
-                <clipPath id="clip0_1_2519">
-                    <rect width="25" height="25" fill="white"/>
-                </clipPath>
-            </defs>
-        </svg>
-    </button>
-</section>
-
-<section class="product-list">
-    <div class="product-list_card product-list_card_horse">
-        <button class="button">
-            Лошадинные истории
-        </button>
-    </div>
-    <div class="product-list_card product-list_card_butterfly">
-        <button class="button">
-            Волшебная сказка
-        </button>
-    </div>
-    <div class="product-list_card product-list_card_wish">
-        <button class="button">
-            Заветное желание
-        </button>
-    </div>
-</section>
-
-<section class="news">
-    <div class="news_name">
-        <h1>Новости</h1>
-    </div>
-    <div class="news_content">
-        <div class="news_content_card news_content_may">
-            <p class="news_content_card_name">График работы в новогодние праздники</p>
-            <p class="news_content_card_info">График работы пунктов выдачи заказов в праздничные дни:</p>
-            <button class="button news_content_card_button">
-                Подробнее
-            </button>
-        </div>
-        <div class="news_content_card news_content_nov">
-            <p class="news_content_card_name">График работы в новогодние праздники</p>
-            <p class="news_content_card_info">График работы пунктов выдачи заказов в праздничные дни:</p>
-            <button class="button news_content_card_button">
-                    Подробнее
-            </button>
-        </div>
-        <div class="news_content_card news_content_jan">
-            <p class="news_content_card_name">График работы в ноябрьские праздники</p>
-            <p class="news_content_card_info">График работы пунктов выдачи заказов в праздничные дни:</p>
-            <button class="button news_content_card_button">
-                Подробнее
-            </button>
-        </div>
-    </div>
+    <a class="login_reg" href=""> Ещё нет аккаунта? Зарегистрироваться</a>
 </section>
 
 <footer class="footer">
@@ -242,7 +121,6 @@
         </div>
     </div>
 </footer>
-
 
 </body>
 </html>
