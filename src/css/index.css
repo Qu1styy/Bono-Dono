@@ -318,6 +318,23 @@
     .news_content{
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .footer_content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer_content_logo_social{
+        display: none;
+    }
+
+    .footer{
+        height: 100%;
+        padding: 50px;
+    }
+
+    .footer_content{
+        border-bottom: 0;
+    }
 }
 
 @media (max-width: 768px) {
@@ -378,6 +395,10 @@
     }
 
     .news_content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer_content{
         grid-template-columns: repeat(1, 1fr);
     }
 }
