@@ -5,8 +5,13 @@
     box-sizing: border-box;
 }
 
+.telephone {
+    text-decoration: none;
+}
+
 body {
     max-width: 1440px;
+    margin: auto;
 }
 
 @font-face {
@@ -95,7 +100,6 @@ a{
 .button:hover {
     background-color: #FEBA00;
     color: white;
-    stroke-color: white;
 }
 
 .header_buttons_menu {

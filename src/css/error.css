@@ -1,0 +1,42 @@
+section {
+    width: 90%;
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.img {
+    width: 40%;
+}
+
+.content {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 200px;
+    font-weight: bold;
+    color: #FEBA00;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a {
+    font-size: 18px;
+    text-decoration: underline;
+}

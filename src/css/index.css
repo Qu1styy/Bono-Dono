@@ -4,7 +4,7 @@
     border: 1px solid #D9D9D9;
     border-radius: 15px;
     margin: 50px auto 50px auto;
-    background-image: url("../img/Промо.svg");
+    background-image: url("../img/promo2.svg");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -149,7 +149,6 @@
 .search_button_search:hover {
     background-color: #FEBA00;
     color: white;
-    stroke-color: white;
 }
 
 .product-list{
@@ -180,15 +179,15 @@
 
 
 .product-list_card_horse{
-    background-image: url("../../src/img/Лошадь.png");
+    background-image: url("../img/horse.png");
 }
 
 .product-list_card_butterfly{
-    background-image: url("../../src/img/Сказка.png");
+    background-image: url("../img/skazka.png");
 }
 
 .product-list_card_wish{
-    background-image: url("../../src/img/Желание.png");
+    background-image: url("../img/shine.png");
 }
 
 .product-list_card button{
@@ -297,7 +296,7 @@
 
 @media (max-width: 1292px) {
     .promo {
-        background-image: url("../img/Промо_блюр.png");
+        background-image: url("../img/promo_blur.png");
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -340,7 +339,7 @@
 @media (max-width: 768px) {
     .promo {
         height: 350px;
-        background-image: url("../img/Промо_блюр.png");
+        background-image: url("../img/promo_blur.png");
     }
 
     .promo_content {
