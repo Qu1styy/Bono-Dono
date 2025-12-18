@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Войти</title>
+    <title>product_card</title>
     <link rel="stylesheet" href="src/css/main.css">
-    <link rel="stylesheet" href="src/css/login.css">
+    <link rel="stylesheet" href="src/css/product_card.css">
 </head>
 <body>
 <header class="header">
@@ -79,49 +79,45 @@
     </nav>
 </header>
 
-<section class="login">
-    <p class="login_name">Войти на сайт</p>
-    <p class="login_text">Войдите в Bono dono для доступа к своему профилю</p>
-
-    <label for="login"></label>
-    <input class="login_form_input" placeholder="Логин" id="login" type="text">
-
-    <label for="password"></label>
-    <input class="login_form_input" placeholder="Пароль" id="password" type="text">
-
-    <button class="login_button">
-        Войти
+<section class="card_name">
+    <button class="card_name_button">
+        <svg width="22" height="38" viewBox="0 0 22 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 2.5L2.5 19L19 35.5" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
     </button>
-
-    <a class="login_reg" href="">Ещё нет аккаунта? Зарегистрироваться</a>
+    <div class="card_name_name">Лошадиные истории</div>
 </section>
 
-<footer class="footer">
-    <div class="footer_content">
-        <div class="footer_content_logo">
-            <a class="" href="#"><img src="src/img/Лого.svg" alt="Bono Dono"></a>
-            <div class="footer_content_logo_social">
-                <a href=""><img src="src/img/telegram.svg" alt=""></a>
-                <a href=""><img src="src/img/vk.svg" alt=""></a>
-            </div>
-        </div>
-        <div class="footer_content_block">
-            <p>Поддержка</p>
-            <p class="footer_content_block_text">+7 (800) 250-33-62</p>
-        </div>
-        <div class="footer_content_block">
-            <p>Адрес</p>
-            <p class="footer_content_block_text">Изумрудный город</p>
-        </div>
-        <div class="footer_content_block">
-            <p>График</p>
-            <p class="footer_content_block_text">Круглосуточно</p>
-        </div>
-        <div class="footer_content_block">
-            <p class="footer_content_block_name">Сотрудничество</p>
-            <p class="footer_content_block_text">+7 (800) 555-35-35</p>
-        </div>
+<section class="description">
+    <div class="description_description">
+        <p class="description_description_name">Описание</p>
+        <p class="description_description_text">Подарите себе и близкому человеку незабываемую прогулку на лошадях. Верховая прогулка на лошадях — это классный способ расслабиться, порадоваться окружающей природе и доброму животному, что везет Вас на себе. Трудно придумать впечатление романтичнее, чем прогулка на лошадях вместе с близким человеком. Конная прогулка проходит в спокойном темпе в сопровождении инструктора, поэтому будет и безопасна и приятна. Лошадь станет Вашим верным другом на все время прогулки верхом!</p>
     </div>
-</footer>
+    <div class="description_price">
+            <p class="description_price_name">Лошадинные истории</p>
+            <p class="description_price_subtitle">Конная прогулка</p>
+            <p class="description_price_price">3000 ₽</p>
+        <div class="description_price_button">
+            <div class="description_price_button_info">
+                <p>2 человека</p>
+                <p>60 минут</p>
+            </div>
+            <button>Купить</button>
+        </div>
+        <div></div>
+        <div></div>
+    </div>
+</section>
+
+<section class="gallery">
+    <div class="gallery_title"><p>Галерея</p></div>
+    <div class="gallery_cards">
+        <div class="gallery_card"></div>
+        <div class="gallery_card"></div>
+        <div class="gallery_card"></div>
+        <div class="gallery_card"></div>
+    </div>
+
+</section>
 </body>
 </html>

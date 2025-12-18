@@ -1,63 +1,76 @@
-.register{
-    width: 30%;
-    height: 510px;
-    /*max-height: 320px;*/
+.register {
+    width: 90%;
+    max-width: 420px;
+    min-height: 510px;
     border: 1px solid #d9d9d9;
     border-radius: 15px;
     margin: 70px auto;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
     padding: 20px;
-    min-width: 420px;
+    box-sizing: border-box;
 }
 
-.register_name{
+.register_name {
     font-size: 24px;
+    margin-bottom: 8px;
 }
 
-.register_text{
-    font-size: 10px;
-    margin-top: 10px;
+.register_text {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.register_form_input{
-    width: 90%;
-    height: 20%;
+.register_form_input {
+    width: 100%;
+    height: 44px;
     border: 1px solid #d9d9d9;
     border-radius: 12px;
     text-align: center;
-    margin-top: 20px;
+    margin-bottom: 14px;
+    box-sizing: border-box;
 }
 
-
-.register_reset_password{
-    width: 90%;
-    height: 10%;
-    font-size: 10px;
-    text-align: end;
-}
-
-.register_button{
-    width: 95%;
-    height: 20%;
+.register_button {
+    width: 100%;
+    height: 44px;
     border: 1px solid #d9d9d9;
     border-radius: 12px;
-    font-size: 20px;
+    font-size: 18px;
     background-color: #FEBA00;
     color: #FFFFFF;
     transition: 0.3s;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
-.register_button:hover{
+.register_button:hover {
     cursor: pointer;
     color: #FEBA00;
     background-color: #FFFFFF;
 }
 
-.register_reg{
-    margin-top: 10px;
-    font-size: 10px;
+.register_reg {
+    margin-top: 12px;
+    font-size: 12px;
 }
 
+@media (max-width: 480px) {
+    .register {
+        margin: 30px auto;
+        padding: 16px;
+    }
+
+    .register_name {
+        font-size: 20px;
+    }
+
+    .register_text {
+        font-size: 11px;
+    }
+
+    .register_button {
+        font-size: 16px;
+    }
+}
