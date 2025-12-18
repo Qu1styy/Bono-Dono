@@ -162,7 +162,56 @@ a{
 .footer_content_block_text:hover{
     cursor: pointer;
     color: black;
+}
 
+.card_name{
+    width: 90%;
+    height: 80px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.card_name_button{
+    width: 80px;
+    height: 100%;
+    border: 1px solid #d9d9d9;
+    border-radius: 15px;
+    background-color: white;
+    margin-right: 30px;
+    transition: 0.3s;
+    color: #FEBA00;
+    cursor: pointer;
+}
+
+.card_name_button:hover{
+    background-color: #FEBA00;
+    color: white;
+}
+
+.card_name_name{
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: #FEBA00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    border-radius: 15px;
+}
+
+@media (max-width: 1000px){
+    .description{
+        flex-direction: column;
+    }
+
+    .description_description{
+        width: 100%;
+    }
+
+    .description_price{
+        width: 100%;
+    }
 }
 
 @media (max-width: 1292px) {
@@ -181,6 +230,14 @@ a{
 
     .footer_content{
         border-bottom: 0;
+    }
+
+    .card_name_button{
+        display: none;
+    }
+
+    .card_name_name{
+        font-size: 24px;
     }
 }
 
